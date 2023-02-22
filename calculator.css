@@ -1,0 +1,29 @@
+/* styling the buttons */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+}
+.display {
+    grid-column: 1/5;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 96%;
+    border-radius: 16px;
+    padding-right: 4%;
+    padding-top: 4%;
+}
+
+button:active {
+    background-color:aliceblue;
+}
+
+button {
+    border-radius: 12px;
+    border-color: lightblue;
+}
+
